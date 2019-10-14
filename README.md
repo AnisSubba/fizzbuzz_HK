@@ -7,6 +7,6 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 * define 'public static void main'
 * import scanner,  so user can enter the limit of number counting,
 * Input 'for loop', with if and else statement,
-* defin if multiplies of number 3 than print fuzz and mulitplies of no 5 than print buzz. 
+* define if multiplies of number 3 than print fuzz and mulitplies of no 5 than print buzz. 
  
 * finished 
