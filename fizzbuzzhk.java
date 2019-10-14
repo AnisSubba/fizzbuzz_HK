@@ -4,21 +4,20 @@ public class fizzbuzz {
 
         public static void main(String[] args) {
             {
-                Scanner keyboard = new Scanner(System.in);
+                Scanner input = new Scanner(System.in);
 
-                int num;
+                int number;
 
                 System.out.print("Enter a number for printing fizzbuzz:");
-                num = keyboard.nextInt();
+                number = input.nextInt();
 
-                for (int i = 1; i <= num; i++) {
-
+                for (int i = 1; i <= number; i++) {
                     if (i % 3 == 0 && i % 5 == 0)
-                        System.out.println("fizz buzz");
+                        System.out.println("Fizz Buzz");
                     else if (i % 3 == 0)
-                        System.out.println("fizz");
+                        System.out.println("Fizz");
                     else if (i % 5 == 0)
-                        System.out.println("buzz");
+                        System.out.println("Buzz");
                     else
                         System.out.println(i);
                 }
